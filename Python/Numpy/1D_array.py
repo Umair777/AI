@@ -61,6 +61,32 @@ print("Cumulative sum:", cumulative_sum)
 ## array operations
 # addition
 
+b = np.array([5, 10, 15, 20])
+d = np.array([4,4,4,4])
+
+e = np.add(b,d)
+print("Sum is : ",e)
+
+'''Output:
+
+1D Array: [10 20 30 40 50]
+Type of array: <class 'numpy.ndarray'>
+Sliced Array (index 1 to 3): [20 30 40]
+Selected elements from original array: [10 30 40]
+Dimension:  1
+numpy array:  (5,)
+Mean: 1.25
+Standard Deviation: 1.479019945774904
+Variance: 2.1875
+Sum of all elements: 5
+Product of all elements: -6
+Minimum element: -1
+Maximum element: 3
+Index of minimum element: 3
+Index of maximum element: 2
+Cumulative sum: [1 3 6 5]
+Sum is :  [ 9 14 19 24]'''
+
 
 
 
